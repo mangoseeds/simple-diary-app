@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <lib.kingja.switchbutton.SwitchMultiButton
+        <com.github.kingja.switchbutton.SwitchMultiButton
             android:id="@+id/switchButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,9 +39,10 @@
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="8dp"
         android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"/>
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="8dp" />
 </LinearLayout>
